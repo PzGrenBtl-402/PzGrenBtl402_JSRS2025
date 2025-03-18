@@ -1,0 +1,22 @@
+name = "PzGrenBtl402 JSRS2025"
+author = "PzGrenBtl402"
+prefix = "pzgrenbtl402_jsrs2025"
+mainprefix = "z"
+
+[files]
+include = [
+    "mod.cpp",
+    "README.md",
+    "LICENSE",
+    "PzGrenBtl402_Logo.paa",
+    "meta.cpp"
+]
+
+[version]
+git_hash = 0
+
+[hemtt.config]
+preset = "Hemtt"
+
+[hemtt.release]
+folder = "PzGrenBtl402_JSRS2025"

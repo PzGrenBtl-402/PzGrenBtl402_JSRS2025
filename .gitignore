@@ -1,0 +1,22 @@
+logs
+private_keys
+*.cache
+*.pbo
+texHeaders.bin
+*.swp
+*.swo
+*.biprivatekey
+Thumbs.db
+*.sqfc
+*.exe
+
+#### HEMTT
+hemtt
+hemtt.exe
+release/
+releases/
+keys/
+.hemttout/
+####
+
+original/

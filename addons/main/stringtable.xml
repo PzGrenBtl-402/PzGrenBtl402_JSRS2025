@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="pzgrenbtl402_jsrs2025">
+    <Package name="Main">
+        <Key ID="STR_pzgrenbtl402_jsrs2025_main_URL">
+            <English>https://pzgrenbtl402.de/</English>
+            <Czech>https://pzgrenbtl402.de/</Czech>
+            <French>https://pzgrenbtl402.de/</French>
+            <Spanish>https://pzgrenbtl402.de/</Spanish>
+            <Italian>https://pzgrenbtl402.de/</Italian>
+            <Polish>https://pzgrenbtl402.de/</Polish>
+            <Portuguese>https://pzgrenbtl402.de/</Portuguese>
+            <Russian>https://pzgrenbtl402.de/</Russian>
+            <German>https://pzgrenbtl402.de/</German>
+            <Korean>https://pzgrenbtl402.de/</Korean>
+            <Japanese>https://pzgrenbtl402.de/</Japanese>
+            <Chinese>https://pzgrenbtl402.de/</Chinese>
+            <Chinesesimp>https://pzgrenbtl402.de/</Chinesesimp>
+            <Turkish>https://pzgrenbtl402.de/</Turkish>
+            <Hungarian>https://pzgrenbtl402.de/</Hungarian>
+        </Key>
+        <Key ID="STR_pzgrenbtl402_jsrs2025_main_authors">
+            <English>PzGrenBtl 402</English>
+            <Czech>PzGrenBtl 402</Czech>
+            <French>PzGrenBtl 402</French>
+            <Spanish>PzGrenBtl 402</Spanish>
+            <Italian>PzGrenBtl 402</Italian>
+            <Polish>PzGrenBtl 402</Polish>
+            <Portuguese>PzGrenBtl 402</Portuguese>
+            <Russian>PzGrenBtl 402</Russian>
+            <German>PzGrenBtl 402</German>
+            <Korean>PzGrenBtl 402</Korean>
+            <Japanese>PzGrenBtl 402</Japanese>
+            <Chinese>PzGrenBtl 402</Chinese>
+            <Chinesesimp>PzGrenBtl 402</Chinesesimp>
+            <Turkish>PzGrenBtl 402</Turkish>
+            <Hungarian>PzGrenBtl 402</Hungarian>
+        </Key>
+    </Package>
+</Project>
