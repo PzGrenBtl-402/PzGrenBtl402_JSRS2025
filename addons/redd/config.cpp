@@ -8,7 +8,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "pzgrenbtl402_jsrs2025_main",
-            "jsrs_soundmod_2025_Beta",
+            "PzGrenBtl402_Redd_Main",
             "redd_marder_1a5",
             "Redd_Tank_Gepard_1A2",
             "Redd_Tank_Wiesel_1A4_MK20",

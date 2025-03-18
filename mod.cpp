@@ -1,6 +1,6 @@
-name = "PzGrenBtl 402 JSRS2025 Compat";
-description = "Bugtracker: https://github.com/PzGrenBtl-402/PzGrenBtl402/issues";
-overview = "JSRS Soundmod 2025 Compat for Redd and Tank";
+name = "JSRS SOUNDMOD 2025 Beta - PzGrenBtl 402 Compatibility";
+description = "Bugtracker: https://github.com/PzGrenBtl-402/PzGrenBtl402_JSRS2025/issues";
+overview = "JSRS SOUNDMOD 2025 compatibility for RnT and PzGrenBtl402 Mod.";
 author = "PzGrenBtl 402";
 actionName = "Webseite";
 action = "https://pzgrenbtl402.de/";
@@ -8,4 +8,4 @@ logo = "PzGrenBtl402_Logo.paa";
 logoOver = "PzGrenBtl402_Logo.paa";
 hideName = 0;
 hidePicture = 0;
-tooltipOwned = "PzGrenBtl 402 JSRS2025";
+tooltipOwned = "JSRS SOUNDMOD 2025 Beta - PzGrenBtl 402 Compatibility";
