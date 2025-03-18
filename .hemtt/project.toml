@@ -8,7 +8,8 @@ include = [
     "mod.cpp",
     "README.md",
     "LICENSE",
-    "PzGrenBtl402_Logo.paa",
+    "pzgrenbtl402_jsrs2025_logo_ca.paa",
+    "pzgrenbtl402_jsrs2025_logoOver_ca.paa",
     "meta.cpp"
 ]
 
