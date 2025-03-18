@@ -20,7 +20,6 @@ class CfgPatches {
             "rnt_lkw_7t_mil_gl_kat_i",
             "rnt_lkw_5t_mil_gl_kat_i"
         };
-        skipWhenMissingDependencies = 1;
         author = ECSTRING(Main,authors);
         authors[] = {"Timi007"};
         url = ECSTRING(Main,URL);

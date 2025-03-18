@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "pzgrenbtl402_jsrs2025_compat_redd_main",
+            "pzgrenbtl402_jsrs2025_compat_redd",
             "PzGrenBtl402_Redd_Main"
         };
         skipWhenMissingDependencies = 1;
