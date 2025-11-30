@@ -372,7 +372,7 @@ class CfgWeapons {
         nullbullet[] = {"jsrs_2025\sounds_f_jsrs2025\null.ogg", 0, 1, 0};
         soundbullet[] = {"nullbullet", 1};
         drySound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\mechanics\pistol_dry.ogg", 1, 1, 10};
-		changeFiremodeSound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\mechanics\pistol_firemode.ogg", 1, 1, 10};
+        changeFiremodeSound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\mechanics\pistol_firemode.ogg", 1, 1, 10};
         reloadMagazineSound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\reloads\flare_gun_gm_reload.ogg", 2, 1, 35};
 
         class Single: Mode_SemiAuto {
@@ -392,10 +392,10 @@ class CfgWeapons {
             class StandardSound: BaseSoundModeType {
                 soundSetShot[] = {
                     "jsrs_2025_debris_dust_soundset",
-					"jsrs_2025_weapon_scape_interior_shotgun_soundshader",
-					"jsrs_2025_weapon_punch_extra_soundshader",
-					"jsrs_2025_rpg7_shot_soundset",
-					"jsrs_2025_launcher_tails_soundset"
+                    "jsrs_2025_weapon_scape_interior_shotgun_soundshader",
+                    "jsrs_2025_weapon_punch_extra_soundshader",
+                    "jsrs_2025_rpg7_shot_soundset",
+                    "jsrs_2025_launcher_tails_soundset"
                 };
             };
         };
