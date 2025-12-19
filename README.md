@@ -1,4 +1,4 @@
-# JSRS Soundmod 2025 Beta - PzGrenBtl 402 Compatibility
+# JSRS Soundmod 2025 - PzGrenBtl 402 Compatibility
 
 This mod adds JSRS Soundmod 2025 compatibility for [Redd'n'Tank Vehicles](https://steamcommunity.com/sharedfiles/filedetails/?id=1128145626), [BWMod](https://steamcommunity.com/sharedfiles/filedetails/?id=1200127537) and [PzGrenBtl 402 Mod](https://github.com/PzGrenBtl-402/PzGrenBtl402).
 
