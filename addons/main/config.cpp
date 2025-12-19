@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"jsrs_soundmod_2025_Beta"};
+        requiredAddons[] = {"jsrs2025_config_c"};
         author = CSTRING(authors);
         url = CSTRING(URL);
         VERSION_CONFIG;
@@ -15,8 +15,8 @@ class CfgPatches {
 
 class CfgMods {
     class PREFIX {
-        dir = "@JSRS SOUNDMOD 2025 Beta - PzGrenBtl 402 Compat";
-        name = "JSRS SOUNDMOD 2025 Beta - PzGrenBtl 402 Compat";
+        dir = "@JSRS SOUNDMOD 2025 - PzGrenBtl 402 Compat";
+        name = "JSRS SOUNDMOD 2025 - PzGrenBtl 402 Compat";
         picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca.paa";
         hidePicture = "true";
         hideName = "true";

@@ -2,8 +2,7 @@
     class StandardSound { \
         soundSetShot[] = {  \
             "jsrs_2025_autocannon_small_shot_soundset", \
-            "jsrs_2025_weapon_stereo_autocannon_soundset", \
-            "jsrs_2025_autocannon_tails_soundset" \
+            "jsrs_2025_tailsystem_Autocannon_soundset" \
         }; \
     }
 
@@ -11,8 +10,7 @@
     class StandardSound { \
         soundSetShot[] = {  \
             "jsrs_2025_autocannon_big_shot_soundset", \
-            "jsrs_2025_weapon_stereo_autocannon_soundset", \
-            "jsrs_2025_autocannon_tails_soundset" \
+            "jsrs_2025_tailsystem_Autocannon_soundset" \
         }; \
     }
 
@@ -26,8 +24,7 @@ class CfgWeapons {
         class StandardSound {
             soundsetshot[] = {
                 "jsrs_2025_mg3_shot_soundset",
-                "jsrs_2025_762mm_lmg_tails_soundset",
-                "jsrs_2025_762mm_echo_soundset"
+                "jsrs_2025_tailsystem_762mm_lmg_soundset"
             };
         };
 
@@ -35,8 +32,7 @@ class CfgWeapons {
             class StandardSound {
                 soundsetshot[] = {
                     "jsrs_2025_mg3_shot_soundset",
-                    "jsrs_2025_762mm_lmg_tails_soundset",
-                    "jsrs_2025_762mm_echo_soundset"
+                    "jsrs_2025_tailsystem_762mm_lmg_soundset"
                 };
             };
         };
@@ -114,8 +110,7 @@ class CfgWeapons {
             class StandardSound {
                 soundsetshot[] = {
                     "jsrs_2025_gmg_vehicle_shot_soundset",
-                    "jsrs_2025_50cal_vehicle_tails_soundset",
-                    "jsrs_2025_50cal_echo_soundset"
+                    "jsrs_2025_tailsystem_40mmgl_soundset"
                 };
             };
         };

@@ -2,8 +2,7 @@
     class StandardSound { \
         soundSetShot[] = {  \
             "jsrs_2025_autocannon_small_shot_soundset", \
-            "jsrs_2025_weapon_stereo_autocannon_soundset", \
-            "jsrs_2025_autocannon_tails_soundset" \
+            "jsrs_2025_tailsystem_Autocannon_soundset" \
         }; \
     }
 

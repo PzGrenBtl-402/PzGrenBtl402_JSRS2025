@@ -2,8 +2,7 @@
     class StandardSound { \
         soundSetShot[] = {  \
             "jsrs_2025_autocannon_big_shot_soundset", \
-            "jsrs_2025_weapon_stereo_autocannon_soundset", \
-            "jsrs_2025_autocannon_tails_soundset" \
+            "jsrs_2025_tailsystem_Autocannon_soundset" \
         }; \
     }
 
@@ -34,8 +33,7 @@
 #define SOUNDSET_MG5 \
     soundSetShot[] = { \
         "jsrs_2025_navid_shot_soundset", \
-        "jsrs_2025_762mm_lmg_tails_soundset", \
-        "jsrs_2025_762mm_echo_soundset" \
+        "jsrs_2025_tailsystem_Magnum_rifle_soundset" \
     }
 
 #define SOUND_MG5 \
@@ -46,8 +44,7 @@
 #define SOUNDSET_MG5_VEH \
     soundSetShot[] = { \
         "jsrs_2025_navid_shot_soundset", \
-        "jsrs_2025_762mm_vehicle_tails_soundset", \
-        "jsrs_2025_762mm_echo_soundset" \
+        "jsrs_2025_tailsystem_762mm_lmg_soundset" \
     }
 
 #define SOUND_MG5_VEH \
@@ -58,14 +55,13 @@
 #define SOUNDSET_G36 \
     soundSetShot[] = { \
         "jsrs_2025_g36_shot_soundset", \
-        "jsrs_2025_556mm_tails_soundset", \
-        "jsrs_2025_556mm_echo_soundset" \
+        "jsrs_2025_tailsystem_556mm_rifle_soundset" \
     }
 
 #define SOUNDSET_G36_SILENCED \
     soundSetShot[] = { \
         "jsrs_2025_g36_shot_silenced_soundset", \
-        "jsrs_2025_556mm_silenced_tails_soundset" \
+        "jsrs_2025_tailsystem_556mm_rifle_silenced_soundset" \
     }
 
 class Mode_FullAuto;
@@ -230,9 +226,12 @@ class CfgWeapons {
     };
 
     class BWA3_MG5_vehicle: LMG_RCWS {
-        nullbullet[] = {"jsrs_2025\sounds_f_jsrs2025\null.ogg", 0, 1, 0};
+        JSRS_adsSound = "lmg";
+        JSRS_magazineEmptySound = "lmg";
+        JSRS_openBoltSound = "lmg";
+        nullbullet[] = {"z\jsrs2025\addons\data\null.wss", 0, 1, 0};
         soundbullet[] = {"nullbullet", 1};
-        reloadmagazinesound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\reloads\lmg_navid_reload.ogg", 2, 1, 35};
+        reloadmagazinesound[] = {"z\jsrs2025\addons\sounds_weapons\sounds\mechanics\reloads\lmg_navid_reload.wss", 2, 1, 35};
 
         class BaseSoundModeType;
         class StandardSound: BaseSoundModeType {
@@ -257,9 +256,9 @@ class CfgWeapons {
     };
 
     class BWA3_MG5_loader: BWA3_MG5_vehicle {
-        nullbullet[] = {"jsrs_2025\sounds_f_jsrs2025\null.ogg", 0, 1, 0};
+        nullbullet[] = {"z\jsrs2025\addons\data\null.wss", 0, 1, 0};
         soundbullet[] = {"nullbullet", 1};
-        reloadmagazinesound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\reloads\lmg_navid_reload.ogg", 2, 1, 35};
+        reloadmagazinesound[] = {"z\jsrs2025\addons\sounds_weapons\sounds\mechanics\reloads\lmg_navid_reload.wss", 2, 1, 35};
 
         class manual: manual {
             SOUND_MG5;
@@ -280,10 +279,10 @@ class CfgWeapons {
 
     class Rifle_Long_Base_F;
     class BWA3_MG3: Rifle_Long_Base_F {
-        nullbullet[] = {"jsrs_2025\sounds_f_jsrs2025\null.ogg", 0, 1, 0};
+        nullbullet[] = {"z\jsrs2025\addons\data\null.wss", 0, 1, 0};
         soundbullet[] = {"nullbullet", 1};
-        drySound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\mechanics\lmg_dry.ogg", 1, 1, 10};
-        changeFiremodeSound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\mechanics\lmg_firemode.ogg", 1, 1, 10};
+        drySound[] = {"z\jsrs2025\addons\sounds_weapons\sounds\mechanics\lmg_dry.wss", 1, 1, 10};
+        changeFiremodeSound[] = {"z\jsrs2025\addons\sounds_weapons\sounds\mechanics\lmg_firemode.wss", 1, 1, 10};
 
         class burst: Mode_FullAuto {
             class BaseSoundModeType;
@@ -294,34 +293,33 @@ class CfgWeapons {
     };
 
     class BWA3_MG4: Rifle_Long_Base_F {
-        nullbullet[] = {"jsrs_2025\sounds_f_jsrs2025\null.ogg", 0, 1, 0};
+        nullbullet[] = {"z\jsrs2025\addons\data\null.wss", 0, 1, 0};
         soundbullet[] = {"nullbullet", 1};
-        drySound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\mechanics\lmg_dry.ogg", 1, 1, 10};
-        changeFiremodeSound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\mechanics\lmg_firemode.ogg", 1, 1, 10};
+        drySound[] = {"z\jsrs2025\addons\sounds_weapons\sounds\mechanics\lmg_dry.wss", 1, 1, 10};
+        changeFiremodeSound[] = {"z\jsrs2025\addons\sounds_weapons\sounds\mechanics\lmg_firemode.wss", 1, 1, 10};
 
         class manual: Mode_FullAuto {
             class BaseSoundModeType;
             class StandardSound: BaseSoundModeType {
                 soundSetShot[] = {
                     "jsrs_2025_mk200_shot_soundset",
-                    "jsrs_2025_556mm_lmg_tails_soundset",
-                    "jsrs_2025_556mm_echo_soundset"
+                    "jsrs_2025_tailsystem_556mm_lmg_soundset"
                 };
             };
             class SilencedSound: BaseSoundModeType {
                 soundSetShot[] = {
                     "jsrs_2025_mk200_shot_silenced_soundset",
-                    "jsrs_2025_556mm_silenced_tails_soundset"
+                    "jsrs_2025_tailsystem_556mm_lmg_silenced_soundset"
                 };
             };
         };
     };
 
     class BWA3_MG5: Rifle_Long_Base_F {
-        nullbullet[] = {"jsrs_2025\sounds_f_jsrs2025\null.ogg", 0, 1, 0};
+        nullbullet[] = {"z\jsrs2025\addons\data\null.wss", 0, 1, 0};
         soundbullet[] = {"nullbullet", 1};
-        drySound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\mechanics\lmg_dry.ogg", 1, 1, 10};
-        changeFiremodeSound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\mechanics\lmg_firemode.ogg", 1, 1, 10};
+        drySound[] = {"z\jsrs2025\addons\sounds_weapons\sounds\mechanics\lmg_dry.wss", 1, 1, 10};
+        changeFiremodeSound[] = {"z\jsrs2025\addons\sounds_weapons\sounds\mechanics\lmg_firemode.wss", 1, 1, 10};
 
         class manual: Mode_FullAuto {
             class BaseSoundModeType;
@@ -331,7 +329,7 @@ class CfgWeapons {
             class SilencedSound: BaseSoundModeType {
                 soundSetShot[] = {
                     "jsrs_2025_navid_shot_silenced_soundset",
-                    "jsrs_2025_762mm_silenced_tails_soundset"
+                    "jsrs_2025_tailsystem_Magnum_rifle_silenced_soundset"
                 };
             };
         };
@@ -339,7 +337,7 @@ class CfgWeapons {
 
     class Rifle_Base_F;
     class BWA3_G36A1: Rifle_Base_F {
-        nullbullet[] = {"jsrs_2025\sounds_f_jsrs2025\null.ogg", 0, 1, 0};
+        nullbullet[] = {"z\jsrs2025\addons\data\null.wss", 0, 1, 0};
         soundbullet[] = {"nullbullet", 1};
         drySound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\mechanics\ar_dry.ogg", 1, 1, 10};
         changeFiremodeSound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\mechanics\ar_firemode.ogg", 1, 1, 10};
@@ -369,11 +367,11 @@ class CfgWeapons {
 
     class Pistol_Base_F;
     class BWA3_P2A1: Pistol_Base_F {
-        nullbullet[] = {"jsrs_2025\sounds_f_jsrs2025\null.ogg", 0, 1, 0};
+        nullbullet[] = {"z\jsrs2025\addons\data\null.wss", 0, 1, 0};
         soundbullet[] = {"nullbullet", 1};
-        drySound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\mechanics\pistol_dry.ogg", 1, 1, 10};
-        changeFiremodeSound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\mechanics\pistol_firemode.ogg", 1, 1, 10};
-        reloadMagazineSound[] = {"\jsrs_2025\sounds_f_jsrs2025\weapons\reloads\flare_gun_gm_reload.ogg", 2, 1, 35};
+        drySound[] = {"z\jsrs2025\addons\sounds_weapons\sounds\mechanics\pistol_dry.wss", 1, 1, 10};
+        changeFiremodeSound[] = {"z\jsrs2025\addons\sounds_weapons\sounds\mechanics\pistol_firemode.wss", 1, 1, 10};
+        reloadMagazineSound[] = {"z\jsrs2025\addons\sounds_weapons\sounds\mechanics\reloads\flare_gun_gm_reload.wss", 2, 1, 35};
 
         class Single: Mode_SemiAuto {
             class BaseSoundModeType;
@@ -395,7 +393,22 @@ class CfgWeapons {
                     "jsrs_2025_weapon_scape_interior_shotgun_soundshader",
                     "jsrs_2025_weapon_punch_extra_soundshader",
                     "jsrs_2025_rpg7_shot_soundset",
-                    "jsrs_2025_launcher_tails_soundset"
+                    "jsrs_2025_tailsystem_Launcher_soundset"
+                };
+            };
+        };
+    };
+
+    class BWA3_RGW90: Launcher_Base_F {
+        class Single: Mode_SemiAuto {
+            class BaseSoundModeType;
+            class StandardSound: BaseSoundModeType {
+                soundSetShot[] = {
+                    "jsrs_2025_debris_dust_soundset",
+                    "jsrs_2025_weapon_scape_interior_shotgun_soundshader",
+                    "jsrs_2025_weapon_punch_extra_soundshader",
+                    "jsrs_2025_rpg7_shot_soundset",
+                    "jsrs_2025_tailsystem_Launcher_soundset"
                 };
             };
         };
@@ -429,7 +442,7 @@ class CfgWeapons {
         class StandardSound {
             soundSetShot[] = {
                 "jsrs_2025_artillery_big_shot_soundset",
-                "jsrs_2025_cannon_tails_soundset"
+                "jsrs_2025_tailsystem_Cannon_Small_soundset"
             };
         };
 
@@ -437,7 +450,7 @@ class CfgWeapons {
             class StandardSound {
                 soundSetShot[] = {
                     "jsrs_2025_artillery_big_shot_soundset",
-                    "jsrs_2025_cannon_tails_soundset"
+                    "jsrs_2025_tailsystem_Cannon_Small_soundset"
                 };
             };
         };
@@ -446,7 +459,7 @@ class CfgWeapons {
             class StandardSound {
                 soundSetShot[] = {
                     "jsrs_2025_artillery_big_shot_soundset",
-                    "jsrs_2025_cannon_tails_soundset"
+                    "jsrs_2025_tailsystem_Cannon_Small_soundset"
                 };
             };
         };

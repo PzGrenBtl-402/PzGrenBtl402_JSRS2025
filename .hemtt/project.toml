@@ -1,4 +1,4 @@
-name = "JSRS SOUNDMOD 2025 Beta - PzGrenBtl 402 Compat"
+name = "JSRS SOUNDMOD 2025 - PzGrenBtl 402 Compat"
 author = "PzGrenBtl402"
 prefix = "pzgrenbtl402_jsrs2025"
 mainprefix = "z"
@@ -20,4 +20,4 @@ git_hash = 0
 preset = "Hemtt"
 
 [hemtt.release]
-folder = "JSRS SOUNDMOD 2025 Beta - PzGrenBtl 402 Compat"
+folder = "JSRS SOUNDMOD 2025 - PzGrenBtl 402 Compat"
