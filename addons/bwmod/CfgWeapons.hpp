@@ -52,6 +52,17 @@
         SOUNDSET_MG5_VEH; \
     }
 
+#define SOUNDSET_MG4_VEH \
+    soundSetShot[] = { \
+        "jsrs_2025_coax_shot_soundset", \
+        "jsrs_2025_tailsystem_556mm_lmg_soundset" \
+    }
+
+#define SOUND_MG4_VEH \
+    class StandardSound { \
+        SOUNDSET_MG4_VEH; \
+    }
+
 #define SOUNDSET_G36 \
     soundSetShot[] = { \
         "jsrs_2025_g36_shot_soundset", \
@@ -222,6 +233,36 @@ class CfgWeapons {
         };
         class far: far {
             SOUND_MG3;
+        };
+    };
+
+    class BWA3_MG4_vehicle: LMG_RCWS {
+        JSRS_adsSound = "lmg";
+        JSRS_magazineEmptySound = "lmg";
+        JSRS_openBoltSound = "lmg";
+        nullbullet[] = {"z\jsrs2025\addons\data\null.wss", 0, 1, 0};
+        soundbullet[] = {"nullbullet", 1};
+        reloadmagazinesound[] = {"z\jsrs2025\addons\sounds_weapons\sounds\mechanics\reloads\lmg_mk200_reload.wss", 2, 1, 35};
+
+        class BaseSoundModeType;
+        class StandardSound: BaseSoundModeType {
+            SOUNDSET_MG4_VEH;
+        };
+
+        class manual: manual {
+            SOUND_MG4_VEH;
+        };
+        class close: close {
+            SOUND_MG4_VEH;
+        };
+        class short: short {
+            SOUND_MG4_VEH;
+        };
+        class medium: medium {
+            SOUND_MG4_VEH;
+        };
+        class far: far {
+            SOUND_MG4_VEH;
         };
     };
 
