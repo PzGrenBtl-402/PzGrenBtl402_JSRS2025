@@ -9,8 +9,7 @@
 #define SOUNDSET_MG3 \
     soundSetShot[] = { \
         "jsrs_2025_mg3_shot_soundset", \
-        "jsrs_2025_762mm_lmg_tails_soundset", \
-        "jsrs_2025_762mm_echo_soundset" \
+        "jsrs_2025_tailsystem_762mm_lmg_soundset" \
     }
 
 #define SOUND_MG3 \
@@ -21,8 +20,7 @@
 #define SOUNDSET_MG3_VEH \
     soundSetShot[] = { \
         "jsrs_2025_mg3_vehicle_shot_soundset", \
-        "jsrs_2025_762mm_vehicle_tails_soundset", \
-        "jsrs_2025_762mm_echo_soundset" \
+        "jsrs_2025_tailsystem_762mm_lmg_soundset" \
     }
 
 #define SOUND_MG3_VEH \
